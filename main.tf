@@ -1,6 +1,11 @@
 provider "aws" {
   region = "us-east-1"
 }
+variable "ami" {
+  description = "Provide the ami Image"
+  type = string
+  default = "ami-12345"
+}
 
 variable "instance_type" {
   description = "Provide the instance type"
