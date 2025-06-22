@@ -6,3 +6,5 @@ for numbers in num:
   else:
     print ("Did not find the number")
   print (numbers)
+
+char = ["a","b","c","d"]
